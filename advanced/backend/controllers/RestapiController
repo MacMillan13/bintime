@@ -1,0 +1,11 @@
+<?
+namespace backend\controllers;
+
+use yii\rest\ActiveController;
+
+class RestapiController extends ActiveController
+{
+    public $modelClass = 'common\models\User';
+
+    
+}
